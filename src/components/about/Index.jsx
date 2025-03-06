@@ -74,7 +74,7 @@ const AboutDetails = () => {
         <ItemLayout className="col-span-6 !p-0">
           <img
             className="w-full h-auto"
-            src="https://streak-stats.demolab.com?user=turbosohaib&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
+            src="https://github-readme-streak-stats.herokuapp.com?user=turbosohaib&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
             alt="github streaks"
             loading="lazy"
           />
@@ -82,7 +82,7 @@ const AboutDetails = () => {
         <ItemLayout className="col-span-6 !p-0">
           <img
             className="w-full h-auto"
-            src=" https://github-readme-stats.vercel.app/api/pin/?username=turbosohaib&repo=Find-Country-api&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon=FEFE5B&text_bold=false"
+            src=" https://github-readme-stats.vercel.app/api/pin/?username=turbosohaib&repo=3d-wizard-portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon=FEFE5B&text_bold=false&description_lines_count=2"
             alt="SohaibShah"
             loading="lazy"
           />
