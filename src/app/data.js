@@ -20,16 +20,18 @@ export const projectsData = [
   {
     id: 1,
     name: "Chat app CSS illustration",
-    description: "Challenge from frontend mentor", 
+    description: "Challenge from frontend mentor",
     date: "Dec 8, 2023",
-    demoLink: "https://turbosohaib.github.io/chat-app-css-illustration-master-frontend-mentor/",
+    demoLink:
+      "https://turbosohaib.github.io/chat-app-css-illustration-master-frontend-mentor/",
   },
   {
     id: 2,
     name: "Results summary component",
     description: "Challenge from frontend mentor",
     date: " Dec 7, 2023",
-    demoLink: "https://turbosohaib.github.io/results-summary-frontend-challenge/",
+    demoLink:
+      "https://turbosohaib.github.io/results-summary-frontend-challenge/",
   },
   {
     id: 3,
@@ -50,7 +52,8 @@ export const projectsData = [
     name: "Social proof section",
     description: "Challenge from frontend mentor",
     date: "Nov 24, 2023",
-    demoLink: "https://turbosohaib.github.io/social-proof-section-master-frontend-mentor/",
+    demoLink:
+      "https://turbosohaib.github.io/social-proof-section-master-frontend-mentor/",
   },
 ];
 
@@ -72,6 +75,12 @@ export const BtnList = [
     newTab: true,
   },
   {
+    label: "Facebook",
+    link: "https://www.facebook.com/profile.php?id=61551120532144",
+    icon: "facebook",
+    newTab: true,
+  },
+  {
     label: "X",
     link: "https://x.com/HamzaKhan36557",
     icon: "twitter",
@@ -84,5 +93,3 @@ export const BtnList = [
     newTab: true,
   },
 ];
-
-

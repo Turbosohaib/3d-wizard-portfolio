@@ -1,4 +1,5 @@
 import {
+  Facebook,
   Github,
   Home,
   Linkedin,
@@ -29,7 +30,8 @@ const getIcon = (icon) => {
       return <Twitter className="w-full h-auto" />;
     case "resume":
       return <NotebookText className="w-full h-auto" />;
-
+    case "facebook":
+      return <Facebook className="w-full h-auto" />;
     default:
       return <Home className="w-full h-auto" />;
   }
