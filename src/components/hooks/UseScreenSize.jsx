@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const useScreenSize = () => {
+const UseScreenSize = () => {
   const [screenSize, setScreenSize] = useState();
 
   useEffect(() => {
@@ -24,4 +24,4 @@ const useScreenSize = () => {
   return screenSize;
 };
 
-export default useScreenSize;
+export default UseScreenSize;
