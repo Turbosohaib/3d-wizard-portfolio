@@ -19,7 +19,7 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Chat app CSS illustration",
+    name: "Chat app illustration",
     description: "Challenge from frontend mentor",
     date: "Dec 8, 2023",
     demoLink:
@@ -27,7 +27,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Results summary component",
+    name: "Results component",
     description: "Challenge from frontend mentor",
     date: " Dec 7, 2023",
     demoLink:
@@ -72,12 +72,6 @@ export const BtnList = [
     label: "LinkedIn",
     link: "https://www.linkedin.com/in/sohaib-shah-b44a65270/",
     icon: "linkedin",
-    newTab: true,
-  },
-  {
-    label: "Facebook",
-    link: "https://www.facebook.com/profile.php?id=61551120532144",
-    icon: "facebook",
     newTab: true,
   },
   {
