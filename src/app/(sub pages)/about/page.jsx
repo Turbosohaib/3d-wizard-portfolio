@@ -2,7 +2,7 @@ import Image from "next/image";
 import bg from "../../../../public/background/about-background.png";
 import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
-import AboutDetails from "@/components/about";
+import AboutDetails from "@/components/about/Index";
 import dynamic from "next/dynamic";
 
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
