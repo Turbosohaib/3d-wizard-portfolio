@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "jest",
-    "dev": " next dev -p 8000",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "deploy:local": "npm run build:local && pm2 start pm2.config.js --env local --no-daemon",
+    "deploy:dev": "npm run build:dev && pm2 start pm2.config.js --env dev",
+    "deploy:prod": "npm run build:prod && pm2 start pm2.config.js --env prod",
+    "vercel:deploy": "vercel build --prod && vercel deploy --prebuilt",
+    "dev": " next dev -p 8000 --turbo",
+    "start": "next start -p 8000"
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
