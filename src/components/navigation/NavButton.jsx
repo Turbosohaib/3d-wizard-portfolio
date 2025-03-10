@@ -63,6 +63,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection }) => {
               className="text-foreground rounded-full flex items-center justify-center custom-bg"
               aria-label={label}
               name={label}
+              prefetch={false}
             >
               <span className="relative w-[65px] h-[65px] p-5 animate-spin-slow-reverse group-hover:pause hover:text-accent">
                 {getIcon(icon)}
@@ -82,6 +83,7 @@ const NavButton = ({ x, y, label, link, icon, newTab, labelDirection }) => {
               className="text-foreground rounded-full flex items-center justify-center custom-bg"
               aria-label={label}
               name={label}
+              prefetch={false}
             >
               <span className="relative w-10 h-10 xs:w-[65px] xs:h-[65px] p-2.5 xs:p-5 hover:text-accent">
                 {getIcon(icon)}
