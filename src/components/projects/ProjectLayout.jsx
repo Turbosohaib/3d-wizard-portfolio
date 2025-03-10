@@ -11,7 +11,7 @@ const item = {
   },
 };
 
-const NavLink = motion(Link);
+const NavLink = motion.create(Link);
 
 const ProjectLayout = ({ name, description, date, demoLink }) => {
   return (

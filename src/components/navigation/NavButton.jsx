@@ -45,7 +45,7 @@ const item = {
   },
 };
 
-const NavLink = motion(Link);
+const NavLink = motion.create(Link);
 
 const NavButton = ({ x, y, label, link, icon, newTab, labelDirection }) => {
   return (
